@@ -1,0 +1,24 @@
+# <type>(<scope>): <subject>
+# │       │
+# │       └─ scope: folder or module (e.g. basics, strings, ct, patterns)
+# │
+# └─ type: feat | fix | docs | style | refactor | test | chore
+#
+# subject: short summary in present tense (max 50 chars)
+#
+# --------------------
+# BODY (optional, add after one blank line)
+# Detailed explanation of what and why, wrapped at 72 chars.
+#
+# FOOTER (optional, add after another blank line)
+# - References to issues, e.g. Closes #123
+# - Breaking changes notice
+#
+# --------------------
+# Example:
+# feat(basics): add variables and data types examples
+#
+# - Implement int, float, str, bool demo
+# - Show type() usage
+#
+# Closes #12
