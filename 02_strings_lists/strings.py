@@ -8,7 +8,7 @@ import torch
 import tensorflow as tf
 
 # =====================================
-# 1) Python Strings
+# 1) Python Strings (extended)
 # =====================================
 print("\n=== Python Strings ===")
 
@@ -54,6 +54,56 @@ multi = """Line1
 Line2
 Line3"""
 print("multiline:\n", multi)
+
+# =====================================
+# Extra: Escape & Raw strings
+# =====================================
+print("\n=== Escape & Raw ===")
+print("Line1\nLine2")                 # newline
+print("Tabbed\tText")                 # tab
+print("Quote: \"Hello\"")             # quote escaping
+print(r"Raw string: C:\Users\Sebin")  # raw (no escape)
+
+# =====================================
+# Extra: Membership & Repetition
+# =====================================
+print("\n=== Membership & Repetition ===")
+print("'Hello' in s:", "Hello" in s)
+print("'bye' not in s:", "bye" not in s)
+print("repeat * 3:", "ha" * 3)
+
+# =====================================
+# Extra: Count & Replace variants
+# =====================================
+print("\n=== Count & Replace ===")
+print("count('l'):", s.count("l"))
+print("replace first 2 'l':", s.replace("l", "L", 2))
+
+# =====================================
+# Extra: Validation isX methods
+# =====================================
+print("\n=== Validation isX ===")
+print("'123'.isdigit():", "123".isdigit())
+print("'abc'.isalpha():", "abc".isalpha())
+print("'abc123'.isalnum():", "abc123".isalnum())
+print("'Hello'.istitle():", "Hello".istitle())
+print("'hello'.islower():", "hello".islower())
+print("'HELLO'.isupper():", "HELLO".isupper())
+
+# =====================================
+# Extra: Casefold (better lower)
+# =====================================
+print("\n=== Casefold ===")
+print("'Straße'.lower():", "Straße".lower())
+print("'Straße'.casefold():", "Straße".casefold())  # matches 'strasse'
+
+# =====================================
+# Extra: Alignment (padding)
+# =====================================
+print("\n=== Alignment ===")
+print("'hi'.center(10, '-'):", "hi".center(10, "-"))
+print("'hi'.ljust(10, '.'):", "hi".ljust(10, "."))
+print("'hi'.rjust(10, '.'):", "hi".rjust(10, "."))
 
 
 # =====================================
