@@ -10,7 +10,7 @@ The structure follows a learning roadmap: from basic syntax to small projects.
 - `02_strings_lists/` : Strings, slicing, lists, dictionaries, sets
 - `03_functions/` : Functions, lambda, recursion
 - `04_patterns/` : Pattern printing (e.g., AlphabetPyramid)
-- `05_oop/` : Object-oriented basics (classes, inheritance)
+- `05_oop/` : Object-oriented basics (class_basics, inheritance, encapsulation, polymorphism, magic_methods)
 - `06_coding_test/` : Coding test solutions (.py for submission)
 - `07_projects/` : Mini projects (e.g., BigramLM)
 
