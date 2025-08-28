@@ -11,6 +11,7 @@ Runs headless on WSL2 or server environments (no GUI required).
 - Visualization normalization: `--viz none|abs|minmax` (useful for edge/derivative kernels)
 
 ## Project Structure
+```bash
 KernelVisualizer/
 ├── assets/ # sample images
 ├── kernel_visualizer/
@@ -20,7 +21,7 @@ KernelVisualizer/
 ├── out/ # example outputs
 ├── main.py # CLI entrypoint (headless-friendly)
 └── tests/ # pytest unit tests
-
+```
 
 ## Installation
 ```bash
